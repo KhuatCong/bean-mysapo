@@ -1,0 +1,39 @@
+.top-header {
+  background-color: antiquewhite;
+  padding: 6px 0;
+}
+.top-header .logo-header a img {
+  height: 55px;
+}
+.top-header .search-header {
+  display: flex;
+  margin: 10px 0;
+}
+.top-header .search-header .map-header {
+  margin-right: 10px;
+}
+.top-header .search-header .map-header a {
+  display: block;
+  text-align: center;
+  line-height: 1.2;
+  font-size: 12px;
+  background-color: var(--mainColor);
+  color: #ffffff;
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+.top-header .search-header .map-header a:hover {
+  background-color: var(--hoverColor);
+}
+.top-header .search-header .box-search input {
+  border-radius: 20px;
+  border: 1px solid var(--mainColor);
+  padding: 5px;
+  position: relative;
+  width: 100%;
+}
+.top-header .search-header .box-search button {
+  position: absolute;
+  left: 0;
+  top: 0;
+}/*# sourceMappingURL=main.css.map */
